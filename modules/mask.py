@@ -32,7 +32,7 @@ def create_outpainting_mask(image_path, target_size=(384, 384), buffer_ratio=0.1
     # Set the region of interest to white in the mask
     mask[roi_start_y:roi_end_y, roi_start_x:roi_end_x] = 0
 
-    return mask
+    return mask, resized_image
 
 if __name__ == "__main__":
     import sys
