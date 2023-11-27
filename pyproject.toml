@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sd-playground"
+version = "0.1.0"
+description = ""
+authors = ["khangkontum <khangkontum@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+diffusers = "^0.23.1"
+torch = ">=2.0.0,<2.0.1"
+opencv-python = "^4.8.1.78"
+transformers = "^4.35.2"
+omegaconf = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
